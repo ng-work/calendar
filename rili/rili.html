@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="css/rili.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+	<div class="box">
+		<header>
+			<p>酒店搜索</p>
+		</header>
+		<section>
+			<div>
+				<span class="sp1">目的地</span>
+				<p>北京</p>
+				<span class="sp2">
+					<span><img src="img/ditu.png" alt=""></span>
+					我的位置
+				</span>
+			</div>
+			<a id="goto" href="">
+				<span class="sp1">日期</span>
+				<p class="rili">
+					<input type="text" id="date_in" readOnly><span id='now'></span><br>
+					<input type="text" id="date_out" readOnly><span id='temp'></span><small>共<i id="count"></i>晚</small>
+				</p>
+			</a>
+			<div>
+				<span class="sp1">关键字</span>
+				<p><input type="text" placeholder="酒店名/地名"></p>
+			</div>
+			<div>
+				<span class="sp1">星级价格</span>
+				<p><input type="text" placeholder="不限星级/价格"></p>
+			</div>
+			<div class="last">
+				<span class="sp3"><i class="fa fa-fw fa-microphone"></i></span>
+				<button>开始搜索</button>
+			</div>
+		</section>
+		<footer>
+			
+		</footer>
+	</div>
+	<script src="js/zepto.min.js"></script>
+	<script src="js/zero.js"></script>
+	<script src='js/rili.js'></script>
+</body>
+</html>
